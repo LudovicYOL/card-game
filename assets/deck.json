@@ -1,0 +1,27 @@
+[
+  {
+    "title":"carte 1",
+    "image":"./img/card.jpg",
+    "capacity":"set capacity here"
+  },
+  {
+    "title":"carte 2",
+    "image":"./img/card.jpg",
+    "capacity":"set capacity here"
+  },
+  {
+    "title":"carte 3",
+    "image":"./img/card.jpg",
+    "capacity":"set capacity here"
+  },
+  {
+    "title":"carte 4",
+    "image":"./img/card.jpg",
+    "capacity":"set capacity here"
+  },
+  {
+    "title":"carte 5",
+    "image":"./img/card.jpg",
+    "capacity":"set capacity here"
+  }
+]

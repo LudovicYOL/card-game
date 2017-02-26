@@ -36,7 +36,6 @@ header{
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 #myCards .card:nth-child(1){margin-left:0px;z-index:99;}
 #myCards .card:nth-child(2){margin-left:50px;z-index:98;}
 #myCards .card:nth-child(3){margin-left:100px;z-index:97;}

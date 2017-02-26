@@ -1,8 +1,6 @@
 
 $(document).ready(function(){
-  console.log("test");
-
-  var gameAreaMap = {};
+  /* var gameAreaMap = {};
   var cardMap = {};
 
   // DRAG DROP MANAGEMENT
@@ -22,6 +20,7 @@ $(document).ready(function(){
     var card = $("#"+ cardId);
     var cardAreaId = event.currentTarget.attributes.id.nodeValue;
     var cardArea = $("#"+ cardAreaId);
+
     if(gameAreaMap[cardAreaId]){
       console.log("ALREADY OCCUPIED !");
     }else{
@@ -38,5 +37,12 @@ $(document).ready(function(){
       card.css("left", left);
     }
 
-  });
+  }); */
+
+  var deck = new Deck("../assets/deck.json");
+  console.log(deck);
+  deck.shuffle();
+  console.log(deck.pick());
+  console.log(deck);
+
 });
